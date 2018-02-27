@@ -1,0 +1,58 @@
+{
+	"status": "1",
+	"msg": "获取商品列表成功。",
+	"data": [
+		{
+			"productId": "1bepn996skck",
+			"productName": "春季新款韩版学院风百搭宽松显瘦小脚长裤",
+			"productBatch": "33.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepn996skck_1.jpg"
+		}, {
+			"productId": "1bepn1ub6ka4",
+			"productName": "新款高腰宽松显瘦磨旧百搭长裤",
+			"productBatch": "31.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepn1ub6ka4_1.jpg"
+		}, {
+			"productId": "1bepl2kqtk2v",
+			"productName": "韩版 弹力磨破不规则修身显瘦牛仔裤女长裤小脚裤",
+			"productBatch": "36.8",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepl2kqtk2v_1.jpg"
+		}, {
+			"productId": "1behverus4qh",
+			"productName": "新款时尚徽章休闲百搭牛仔背带长裤女",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1behverus4qh_1.jpg"
+		}, {
+			"productId": "1behvjngt4rs",
+			"productName": "新款背带卡通徽章宽松背带长裤女 潮",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1behvjngt4rs_1.jpg"
+		}, {
+			"productId": "1behvm44a4sd",
+			"productName": "新款 徽章贴布水洗 牛仔背带长裤女",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1behvm44a4sd_1.jpg"
+		}, {
+			"productId": "1bei01fde4ui",
+			"productName": "欧洲站春秋季新款弹力破洞印章学生范牛仔背带长裤女修",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei01fde4ui_1.jpg"
+		}, {
+			"productId": "1behvvran4ud",
+			"productName": "春秋季新款 随意休闲 个性破洞牛仔背带长裤",
+			"productBatch": "33.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1behvvran4ud_1.jpg"
+		}, {
+			"productId": "1bei0anlm50h",
+			"productName": "新款无弾百搭减龄宽松简约学生牛仔背带长裤女",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei0anlm50h_1.jpg"
+		}, {
+			"productId": "1bei0ar4l50i",
+			"productName": "新款韩版弹力磨破水洗牛仔背带长裤女修身显瘦",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei0ar4l50i_1.jpg"
+		}
+	],
+	"totalPage": 23
+} 

@@ -1,0 +1,75 @@
+<header class="nearby-head">
+	<div class="map" ng-click="map()">
+		<div class="content">
+			<div class="text">江夏区杨桥湖大道藏龙岛办事处</div>
+		</div>
+	</div>
+	<div class="search">
+		<a href="javascript:;" class="left-btn" ng-click="goPage('/cart')"></a>
+		<div class="input">
+			<input type="text" placeholder="请输入门店名称" />
+			<a href="javascript:;" class="search-btn iconfont icon-saomiao1"></a>
+		</div>
+		<a href="javascript:;" class="right-btn" ng-click="sao()"></a>
+	</div>
+</header>
+<div class="nearby-container">
+	<nav class="nearby-nav">
+		<ul>
+			<li ng-click="showStore(0)" ng-class="{true: 'active',false: ''}[index == 0]">
+				<a href="javascript:;">距离最近</a>
+			</li>
+			<li ng-click="showStore(1)" ng-class="{true: 'active',false: ''}[index == 1]">
+				<a href="javascript:;">销量最高</a>
+			</li>
+			<li ng-click="showStore(2)" ng-class="{true: 'active',false: ''}[index == 2]">
+				<a href="javascript:;">评价最高</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="nearby-content">
+		<div class="store-con" ng-click="goStore()" ng-repeat="item in store">
+			<div class="left">
+				<img ng-src="{{item.storeImg}}" alt="" />
+			</div>
+			<div class="right">
+				<div class="title">
+					<div class="text" ng-bind-template="{{item.storeName}}"></div>
+					<a href="javascript:;">进店逛逛</a>
+				</div>
+				<div class="pinfen">
+					<div class="pinjia">
+						<div class="icon">
+							<span ng-repeat ="i in item.xx track by $index"><img ng-src="{{i}}" alt="" /></span>
+						</div>
+						<div class="rating" ng-bind-template="{{item.rating}}">
+						</div>
+					</div>
+					<div class="xiaoshou">
+						<span class="yueshou" ng-bind-template="月售{{item.yueshou}}单"></span>
+						<span>|</span>
+						<span class="juli" ng-bind-template = "{{item.juli}}m"></span>
+					</div>
+				</div>
+				<div class="fenlei">
+					<span ng-repeat = "j in item.fenlei" ng-bind-template="{{j}}"></span>
+				</div>
+				<div class="addres" ng-bind-template="{{item.addres}}">
+				</div>
+				<div class="note box">
+					<div class="text">
+						<a href="javascript:;" ng-bind-template="{{item.note}}">
+						</a>
+					</div>
+				</div>
+				<div class="note2 box">
+					<div class="text">
+						<a href="javascript:;" ng-bind-template="{{item.note}}">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+

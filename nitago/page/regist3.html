@@ -1,0 +1,25 @@
+<header class='regist3-head'>
+	<div class="left">
+		<a href="javascript:;" onclick = "history.back(-1)"></a>
+	</div>
+	<div class="text">
+		设置密码
+	</div>
+</header>
+<div class="regist3-content">
+	<div class="form">
+		<form>
+			<div class="text">密码</div>
+			<div class="phone">
+				<input type="{{text}}" placeholder="6-14位" />
+			</div>
+			<a  href="javascript:;" class="btn" ng-class="{true: 'text',false: 'password'}[text == 'text']" ng-click="show()"></a>
+		</form>
+	</div>
+	
+	<div class="logBtn">
+		<a href="javascript:;" class="login-btn" ng-click="goPage('/home')">完成</a>
+	</div>
+</div>
+
+

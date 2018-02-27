@@ -1,0 +1,80 @@
+{
+	"prodectsInfo": [
+		{
+			"productId": "1beppep9ekok",
+			"productName": "新款夏季吊带荷叶边牛仔上衣+包臀半身裙套装",
+			"productBatch": "48.4",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beppep9ekok_1.jpg"
+		}, {
+			"productId": "1bepomvo5kkd",
+			"productName": "夏季新款甜美舒适精品高端蕾丝套装两件套套装",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepomvo5kkd_1.jpg"
+		}, {
+			"productId": "1bepo9mfhkhh",
+			"productName": "新款韩版气质名媛高腰显瘦减龄挂脖无袖A字裙连衣裙",
+			"productBatch": "41.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepo9mfhkhh_1.jpg"
+		}, {
+			"productId": "1bepnmi74kdt",
+			"productName": "新款性感名媛镂空修身甜美A字蕾丝连衣裙女水溶蕾丝裙子",
+			"productBatch": "53.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepnmi74kdt_1.jpg"
+		}, {
+			"productId": "1bepn7m3ekca",
+			"productName": "礼服裙2017夏装修身性感纯色A型蕾丝水溶短袖晚宴连衣裙",
+			"productBatch": "53.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepn7m3ekca_1.jpg"
+		}, {
+			"productId": "1bephjb66jch",
+			"productName": "夏装韩版短袖荷叶边拼接条纹雪纺打底衫T恤",
+			"productBatch": "31.0",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bephjb66jch_1.jpg"
+		}, {
+			"productId": "1bephcnpvjbl",
+			"productName": "夏季韩版一字领蕾丝花边吊带露肩宽松雪纺衫短袖上衣",
+			"productBatch": "27.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bephcnpvjbl_1.jpg"
+		}, {
+			"productId": "1beph7e50jb1",
+			"productName": "2017夏装新款学生短袖显瘦百搭喇叭半袖雪纺衫上衣体恤",
+			"productBatch": "25.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beph7e50jb1_1.jpg"
+		}, {
+			"productId": "1bepgdcgkj7m",
+			"productName": "2017夏季新款修身显瘦毛边磨破洞高腰牛仔短裤",
+			"productBatch": "21.3",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepgdcgkj7m_1.jpg"
+		}, {
+			"productId": "1bepfrmeij5v",
+			"productName": "新款高腰显瘦热裤女士花朵刺绣破洞卷边牛仔短裤",
+			"productBatch": "21.3",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepfrmeij5v_1.jpg"
+		}
+	],
+	"totalPage": 30,
+	"status": "1",
+	"msg": "获取信息成功!",
+	"data": {
+		"imageUrl": [
+			{
+				"imgUrl": "http://images.baohua.com/appImage/kuan1.jpg"
+			}, {
+				"imgUrl": "http://images.baohua.com/appImage/kuan2.jpg"
+			}, {
+				"imgUrl": "http://images.baohua.com/appImage/kuan3.jpg"
+			}
+		],
+		"banImages": [
+			{
+				"imgUrl": "http://images.baohua.com/appImage/banbox1.jpg"
+			}, {
+				"imgUrl": "http://images.baohua.com/appImage/banbox2.jpg"
+			}, {
+				"imgUrl": "http://images.baohua.com/appImage/banbox3.jpg"
+			}, {
+				"imgUrl": "http://images.baohua.com/appImage/banbox4.jpg"
+			}
+		]
+	}
+}

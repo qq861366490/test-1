@@ -1,0 +1,85 @@
+.list .list-header {
+  width: 100%;
+  height: 0.86rem;
+  padding: 0.15rem 0.3rem;
+  box-sizing: border-box;
+  background-color: #db2537;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+.list .list-header .search {
+  width: 100%;
+  height: 0.56rem;
+  padding-left: 0.4rem;
+  border-radius: 0.08rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+.list .list-header .search input {
+  border: none;
+  width: 90%;
+  height: 0.52rem;
+  line-height: 0.6rem;
+  padding-left: 0.06rem;
+  font-size: 0.24rem;
+}
+.list .list-header .search input::-webkit-input-placeholder {
+  font-size: 0.24rem;
+  line-height: 0.6rem;
+}
+.list .list-header .search span {
+  color: #fff;
+  position: absolute;
+  display: block;
+  width: 0.4rem;
+  height: 0.56rem;
+  left: 0;
+  top: 0;
+  color: #89898f;
+  line-height: 0.56rem;
+  text-align: center;
+}
+.list .list-header .search span.iconfont {
+  font-size: 0.4rem;
+}
+.list .list-container {
+  width: 100%;
+  margin-top: 0.86rem;
+  margin-bottom: 1rem;
+}
+.list .list-container ul li {
+  width: 25%;
+  height: 2.32rem;
+  float: left;
+}
+.list .list-container ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0.1rem;
+  box-sizing: border-box;
+}
+.list .list-container ul li a span {
+  display: block;
+}
+.list .list-container ul li a span.icon {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.list .list-container ul li a span.icon img {
+  width: 100%;
+  height: auto;
+}
+.list .list-container ul li a span.text {
+  width: 100%;
+  height: 30%;
+  line-height: 0.69rem;
+  text-align: center;
+  color: #000;
+  font-size: 0.26rem;
+}

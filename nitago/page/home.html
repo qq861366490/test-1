@@ -1,0 +1,238 @@
+<header class="home-head">
+	<div class="map" ng-click="map()">
+		<div class="content">
+			<div class="text">江夏区杨桥湖大道藏龙岛办事处</div>
+		</div>
+	</div>
+	<div class="search">
+		<a href="javascript:;" class="left-btn" ng-click="goPage('/cart')"></a>
+		<div class="input">
+			<input type="text" placeholder="请输入商品名称" />
+			<a href="javascript:;" class="search-btn iconfont icon-saomiao1"></a>
+		</div>
+		<a href="javascript:;" class="right-btn" ng-click="sao()"></a>
+	</div>
+</header>
+<div class="home-container">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div ng-repeat="item in banner" class="swiper-slide">
+				<a href="javascript:;" ng-click="goDetail(item.goodsId)">
+					<img ng-src="{{item.goodsImg}}" alt="" />
+				</a>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<div class="nav-icon">
+		<ul>
+			<li>
+				<span class="icon pinpai"></span>
+				<span class="text">品牌直销</span>
+			</li>
+			<li>
+				<span class="icon jianhuo"></span>
+				<span class="text">海量尖货</span>
+			</li>
+			<li>
+				<span class="icon zhengping"></span>
+				<span class="text">原装正品</span>
+			</li>
+			<li>
+				<span class="icon mianshui"></span>
+				<span class="text">免税低价</span>
+			</li>
+			<li>
+				<span class="icon shouhou"></span>
+				<span class="text">门店售后</span>
+			</li>
+		</ul>
+	</div>
+	<div class="goods-hot">
+		<div class="top">
+			<div class="hot" ng-repeat="item in picHot">
+				<a href="javascript:;" ng-click="goDetail(item.goodsId)">
+					<img ng-src="{{item.goodsImg}}" alt="" />
+				</a>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="putong" ng-repeat="item in picPutong">
+				<a href="javascript:;" ng-click="goDetail(item.goodsId)">
+					<img ng-src="{{item.goodsImg}}" alt="" />
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!--goods-fuli-->
+
+	<div class="goods-fuli">
+		<div class="fuli-title">
+			<div class="line"></div>
+			<div class="text">超级福利社</div>
+			<div class="line"></div>
+		</div>
+		<div class="content">
+			<div class="left">
+				<a href="javascript:;" ng-click="goDetail(qia.goodsId)">
+					<div class="text01">
+						超值抢
+					</div>
+					<div class="text02">
+						限时限量 疯狂抢购
+					</div>
+					<div class="time">
+						<span class="t01">2</span>
+						<span class="t02">天</span>
+						<span class="t01">12</span>
+						<span class="t02">:</span>
+						<span class="t01">14</span>
+						<span class="t02">:</span>
+						<span class="t01">57</span>
+					</div>
+					<div class="img">
+						<div class="box">
+							<img ng-src="{{qia.goodsImg}}" alt="" />
+						</div>
+					</div>
+					<div class="price">
+						<p class="pri" ng-bind-template="¥{{qia.goodsPrice}}"></p>
+						<p class="text">超值价</p>
+					</div>
+				</a>
+			</div>
+			<div class="right">
+				<div class="two" ng-repeat="item in put">
+					<a href="javascript:;" ng-click="goDetail(item.goodsId)">
+						<img ng-src="{{item.goodsImg}}" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--pic3-->
+
+	<div class="pic3">
+		<div class="img" ng-repeat="item in pic3">
+			<a href="javascript:;" ng-click="goList(item.classId)">
+				<img ng-src="{{item.classImg}}" alt="" />
+			</a>
+		</div>
+	</div>
+
+	<!--home-haodian-->
+
+	<div class="home-haodian clearfix">
+		<div class="haodian-title">
+			<div class="con">
+				<div class="line"></div>
+				<div class="text">好店推荐</div>
+				<div class="line"></div>
+			</div>
+			<a href="javascript:;">更多</a>
+		</div>
+		<div class="content">
+			<div class="store">
+				<div class="store-con" ng-click="goStore()">
+					<div class="left">
+						<img ng-src="{{store0.storeImg}}" alt="" />
+					</div>
+					<div class="right">
+						<div class="title">
+							<div class="text" ng-bind-template="{{store0.storeName}}">你他购商城</div>
+							<a href="javascript:;">进店逛逛</a>
+						</div>
+						<div class="pinfen">
+							<div class="pinjia">
+								<div class="icon">
+									<span ng-repeat ="i in store0.xx track by $index"><img ng-src="{{i}}" alt="" /></span>
+								</div>
+								<div class="rating" ng-bind-template="{{store0.rating}}">
+								</div>
+							</div>
+							<div class="xiaoshou">
+								<span class="yueshou" ng-bind-template="月售{{store0.yueshou}}单"></span>
+								<span>|</span>
+								<span class="juli" ng-bind-template = "{{store0.juli}}m"></span>
+							</div>
+						</div>
+						<div class="fenlei">
+							<span ng-repeat = "j in store0.fenlei" ng-bind-template="{{j}}"></span>
+						</div>
+					</div>
+				</div>
+				<div class="goods-con">
+					<ul>
+						<li ng-click="goDetail()" ng-repeat = "k in goods0">
+							<div class="left">
+								<img ng-src="{{k.goodsImg}}" alt="" />
+							</div>
+							<div class="right">
+								<div class="title" ng-bind-template="{{k.goodsText}}"></div>
+								<div class="price" ng-bind-template="{{k.goodsPrice | currency : '¥' : '2'}}"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!--home tuijian-->
+	
+	<div class="tuijian">
+		<div class="tuijian-title">
+			<div class="con">
+				<div class="text01">
+					<div class="text">为你推荐</div>
+				</div>
+
+			</div>
+			<a href="javascript:;">更多</a>
+		</div>
+		<div class="container">
+			<div class="item" ng-repeat="item in pic5">
+				<a href="javascript:;">
+					<div class="img">
+						<img ng-src="{{item.imgs}}" alt="" />
+					</div>
+					<div class="centent">
+						<p><span class="icon"><img ng-src="{{item.icon}}" alt="" /></span><span class="text" ng-bind-template="{{item.class}}"></span></p>
+						<h3 ng-bind-template="{{item.title}}"></h3>
+						<div class="text" ng-bind-template="{{item.text}}"></div>
+					</div>
+
+				</a>
+				<ul class="fenxiang">
+					<li>
+						<a href="javascript:;">
+							<span class="icon"></span>
+							<span class="text" ng-bind-template="{{item.xihuan}}"></span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span class="icon"></span>
+							<span class="text" ng-bind-template="{{item.pinlun}}"></span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span class="icon"></span>
+							<span class="text" ng-bind-template="{{item.shoucang}}"></span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<span class="icon"></span>
+							<span class="text">分享</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

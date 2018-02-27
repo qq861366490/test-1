@@ -1,0 +1,31 @@
+{
+	"status": "1",
+	"msg": "获取用户信息成功。",
+	"data": {
+		"uuidToken": "1besvokguouf",
+		"orderState": {
+			"collect": 0,
+			"shoppingCar": 0,
+			"history": 0
+		},
+		"myOrder": {
+			"waitPay": "0",
+			"waitDelivery": "0",
+			"waitAssess": "0"
+		},
+		"myPurse": {
+			"blance": 0,
+			"sendMoney": 0
+		},
+		"userInfo": {
+			"userName": "18807253417",
+			"nickName": "18807253417",
+			"dtlAddress": "",
+			"phoneNum": "18807253417",
+			"email": "",
+			"qq": "",
+			"groupId": "911"
+		},
+		"backOrderNum": ""
+	}
+}  

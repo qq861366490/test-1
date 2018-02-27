@@ -1,0 +1,117 @@
+[
+	{
+		"storeImg":"imgs/home/pic4-haodian/0/store/5773862d8882b28c69bc86be9fdb58a01468393445.png.png",
+		"storeId": 1,
+		"storeName": "你他购商城",
+		"rating": "4.5",
+		"order": "4719",
+		"fenlei":[
+			"你他购商城",
+			"母婴保健",
+			"O2O商城"
+		],
+		"goods":[
+			{
+				"goodsImg":"imgs/home/pic4-haodian/0/imgs/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/0/imgs/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/0/imgs/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/0/imgs/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			}
+		]
+	},
+	{
+		"storeImg":"imgs/home/pic4-haodian/5773862d8882b28c69bc86be9fdb58a01468393445.png.png",
+		"storeId": 1,
+		"storeName": "你他购商城",
+		"rating": "4.5",
+		"order": "4719",
+		"fenlei":[
+			"你他购商城",
+			"母婴保健",
+			"O2O商城"
+		],
+		"goods":[
+			{
+				"goodsImg":"imgs/home/pic4-haodian/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			}
+		]
+	},
+	{
+		"storeImg":"imgs/home/pic4-haodian/5773862d8882b28c69bc86be9fdb58a01468393445.png.png",
+		"storeId": 1,
+		"storeName": "你他购商城",
+		"rating": "4.5",
+		"order": "4719",
+		"fenlei":[
+			"你他购商城",
+			"母婴保健",
+			"O2O商城"
+		],
+		"goods":[
+			{
+				"goodsImg":"imgs/home/pic4-haodian/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			},
+			{
+				"goodsImg":"imgs/home/pic4-haodian/89dc624afd30bebba4e3fb7661702f58kj10000064.1.png.png",
+				"goodsPrice": "135",
+				"goodsId": 10,
+				"goodsName": "德国爱他美Aptamil 进口婴儿奶粉 pre段、1段、2段、3段、 1+段、2+段"
+			}
+		]
+	}
+	
+]

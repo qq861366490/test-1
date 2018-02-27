@@ -1,0 +1,101 @@
+footer {
+  width: 100%;
+  height: 0.92rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: #efeeec;
+}
+footer a {
+  width: 20%;
+  height: 0.92rem;
+  padding: 0.1rem 0;
+  display: block;
+  float: left;
+}
+footer a span {
+  float: left;
+  width: 100%;
+  font-size: 0.2rem;
+  line-height: 0.3rem;
+  text-align: center;
+}
+footer a span.icon {
+  height: 0.4rem;
+  margin-bottom: 0.04rem;
+}
+footer a span.content {
+  color: #8a8a8a;
+}
+footer a.nitashuo span.icon {
+  background: url(../imgs/index/nav_img131.png) no-repeat top center;
+  background-size: 0.4rem 0.4rem;
+}
+footer a.nitashuo.active span.icon {
+  background-image: url(../imgs/index/nav_img13.png);
+}
+footer a.nitashuo.active span.content {
+  color: #ff3165;
+}
+footer a.fenlei span.icon {
+  background: url(../imgs/index/gwc_img02.png) no-repeat top center;
+  background-size: 0.4rem 0.4rem;
+}
+footer a.fenlei.active span.icon {
+  background-image: url(../imgs/index/gwc_img021.png);
+}
+footer a.fenlei.active span.content {
+  color: #ff3165;
+}
+footer a.shouye {
+  position: absolute;
+  left: 40%;
+  height: 1.2rem;
+  bottom: -0.1rem;
+  text-align: center;
+}
+footer a.shouye span.icon-home {
+  width: 44%;
+  height: 56%;
+  border-radius: 50%;
+  margin-left: 28%;
+  background: #666666 url(../imgs/index/nav_img12.png) no-repeat 0.08rem 0.06rem;
+  background-size: 0.4rem 0.4rem;
+}
+footer a.shouye span.content {
+  line-height: 0.44rem;
+  height: 44%;
+}
+footer a.shouye.active span.icon-home {
+  background-color: #ff3165;
+}
+footer a.shouye.active span.content {
+  color: #ff3165;
+}
+footer a.fujin {
+  float: right;
+}
+footer a.fujin span.icon {
+  background: url(../imgs/index/nav_img20.png) no-repeat top center;
+  background-size: 0.4rem 0.4rem;
+}
+footer a.fujin.active span.icon {
+  background-image: url(../imgs/index/nav_img21.png);
+}
+footer a.fujin.active span.content {
+  color: #ff3165;
+}
+footer a.wode {
+  float: right;
+}
+footer a.wode span.icon {
+  background: url(../imgs/index/nav_img40.png) no-repeat top center;
+  background-size: 0.4rem 0.4rem;
+}
+footer a.wode.active span.icon {
+  background-image: url(../imgs/index/nav_img41.png);
+}
+footer a.wode.active span.content {
+  color: #ff3165;
+}

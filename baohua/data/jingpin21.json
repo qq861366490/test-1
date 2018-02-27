@@ -1,0 +1,59 @@
+{
+	"prodectsInfo": [
+		{
+			"productId": "1be2ffvib9vb",
+			"productName": "2017夏学生高腰弹力牛仔裤女九分阔腿不规则显瘦喇叭裤",
+			"productBatch": "36.8",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1be2ffvib9vb_1.jpg"
+		}, {
+			"productId": "1bdlkoi1ii86",
+			"productName": "夏季百搭新款玫瑰花印花宽松竹节棉短袖T恤女",
+			"productBatch": "19.4",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bdlkoi1ii86_1.jpg"
+		}, {
+			"productId": "1bdlijeu1i3f",
+			"productName": "夏装新款口袋拼接撞色宽松百搭短袖T恤上衣 学生",
+			"productBatch": "20.3",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bdlijeu1i3f_1.jpg"
+		}, {
+			"productId": "1bdj7ie00fff",
+			"productName": "蕾丝连衣裙夏季性感露肩修身短裙新款女装显瘦蓬蓬",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bdj7ie00fff_1.jpg"
+		}, {
+			"productId": "1bdj5t8k2fac",
+			"productName": "2017夏季新款　五角星不规则百搭宽松t恤纯棉上衣短袖",
+			"productBatch": "27.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bdj5t8k2fac_1.jpg"
+		}, {
+			"productId": "1bdj5c603f7r",
+			"productName": "2017夏季新款　女花朵刺绣背带裙连衣裙V领宽松打底裙中长款",
+			"productBatch": "57.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bdj5c603f7r_1.jpg"
+		}, {
+			"productId": "1bdj2jjipetm",
+			"productName": "夏季百搭学生宽松套头撞色拼接短袖T恤女",
+			"productBatch": "18.4",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bdj2jjipetm_1.jpg"
+		}, {
+			"productId": "1bdgp8va3cir",
+			"productName": "蕾丝连衣裙圆领修身韩版气质显瘦镂空钩花短袖连衣",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bdgp8va3cir_1.jpg"
+		}, {
+			"productId": "1bdgfcoi0c48",
+			"productName": "2017新款韩版绣花圆领长款T恤女百搭学院风",
+			"productBatch": "31.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bdgfcoi0c48_1.jpg"
+		}, {
+			"productId": "1bdbakcej01b",
+			"productName": "新款韩版宽松中长款带帽风衣外套女学院风",
+			"productBatch": "21.3",
+			"productImage": "http://images.baohua.com/productimage/long/2017/03/1bdbakcej01b-middle.jpg"
+		}
+	],
+	"totalPage": 7,
+	"status": "1",
+	"msg": "获取信息成功!",
+	"data": {}
+}

@@ -1,0 +1,238 @@
+.nitashuo-head {
+  width: 100%;
+  height: 0.76rem;
+  background: #ffffff url(../imgs/index/ntslogo_300_90.png) no-repeat center;
+  background-size: 1.35rem 0.42rem;
+  border-bottom: 0.02rem solid #ebebeb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.nitashuo-head .back {
+  display: block;
+  float: left;
+  width: 1rem;
+  height: 100%;
+  background: url(../imgs/index/fh.png) no-repeat center;
+  background-size: 0.4rem 0.4rem;
+}
+.nitashuo-head .search {
+  display: block;
+  float: right;
+  width: 0.8rem;
+  height: 100%;
+  background: url(../imgs/index/sea_tu01.png) no-repeat center;
+  background-size: 0.5rem 0.5rem;
+}
+.nitashuo-head .more {
+  display: block;
+  float: right;
+  width: 1rem;
+  height: 100%;
+  background: url(../imgs/index/dina.png) no-repeat center;
+  background-size: 0.4rem 0.4rem;
+}
+.nitashuo-head .head-nav {
+  width: 1.8rem;
+  height: 2.08rem;
+  box-sizing: border-box;
+  padding: 0 0.14rem;
+  border-radius: 0.1rem;
+  background: url(../imgs/index/minnav_206_line.png);
+  position: absolute;
+  right: 0.2rem;
+  top: 0.8rem;
+}
+.nitashuo-head .head-nav li {
+  width: 100%;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  border-top: 1px solid #5e5e5e;
+}
+.nitashuo-head .head-nav li a {
+  display: block;
+  width: 100%;
+  height: 0.68rem;
+  box-sizing: border-box;
+  line-height: 0.68rem;
+  padding-left: 0.5rem;
+  color: #fff;
+  font-size: 0.2rem;
+}
+.nitashuo-head .head-nav li:nth-child(1) {
+  border-top: none;
+}
+.nitashuo-head .head-nav li:nth-child(1) a {
+  background: url(../imgs/index/minnav_img01.png) no-repeat center left;
+  background-size: 0.35rem 0.35rem;
+}
+.nitashuo-head .head-nav li:nth-child(2) a {
+  background: url(../imgs/index/minnav_img02.png) no-repeat center left;
+  background-size: 0.35rem 0.35rem;
+}
+.nitashuo-head .head-nav li:nth-child(3) a {
+  background: url(../imgs/index/minnav_img03.png) no-repeat center left;
+  background-size: 0.35rem 0.35rem;
+}
+.nitashuo-head .head-nav div {
+  width: 0.28rem;
+  height: 0.25rem;
+  position: absolute;
+  background: url(../imgs/index/minnav_30.png) no-repeat center;
+  background-size: 0.25rem 0.25rem;
+  top: -0.25rem;
+  right: 0.3rem;
+  z-index: 1001;
+}
+.nitashuo-nav {
+  width: 100%;
+  height: 0.7rem;
+  position: fixed;
+  top: 0.76rem;
+  left: 0;
+  background-color: #fff;
+}
+.nitashuo-nav ul {
+  height: 0.7rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.nitashuo-nav ul li {
+  display: inline-block;
+  line-height: 0.6rem;
+  padding: 0 0.1rem;
+  margin: 0 0.1rem;
+  margin-bottom: 0.2rem;
+  box-sizing: border-box;
+}
+.nitashuo-nav ul li.active {
+  border-bottom: #ff3366 2px solid;
+}
+.nitashuo-nav ul li.active a {
+  color: #ff1550;
+}
+.nitashuo-nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #666;
+  font-size: 0.24rem;
+}
+.nitashuo-container {
+  padding-top: 1.42rem;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+.nitashuo-container .content {
+  padding-top: 0.66rem;
+  padding-bottom: 0.9rem;
+}
+.nitashuo-container .item {
+  width: 100%;
+  margin-bottom: 0.2rem;
+  background-color: #fff;
+}
+.nitashuo-container .item:last-child {
+  margin-bottom: 0;
+}
+.nitashuo-container .item .img {
+  width: 100%;
+  height: 4rem;
+  overflow: hidden;
+}
+.nitashuo-container .item .img img {
+  width: 100%;
+  height: auto;
+}
+.nitashuo-container .item .centent {
+  padding: 0.2rem;
+}
+.nitashuo-container .item .centent p {
+  width: 100%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+.nitashuo-container .item .centent p span.icon {
+  display: inline-block;
+  float: left;
+  width: 0.26rem;
+  height: 0.26rem;
+  overflow: hidden;
+  margin-top: 0.05rem;
+  margin-right: 0.1rem;
+}
+.nitashuo-container .item .centent p span.icon img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.nitashuo-container .item .centent p span.text {
+  float: left;
+  font-size: 0.2rem;
+  color: #ff3366;
+}
+.nitashuo-container .item .centent h3 {
+  font-size: 0.28rem;
+  color: #000;
+  line-height: 0.5rem;
+}
+.nitashuo-container .item .centent .text {
+  font-size: 0.2rem;
+  color: #989898;
+  line-height: 0.38rem;
+}
+.nitashuo-container .item .fenxiang {
+  width: 100%;
+  height: 0.7rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nitashuo-container .item .fenxiang li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.nitashuo-container .item .fenxiang li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 0.36rem;
+  text-align: center;
+}
+.nitashuo-container .item .fenxiang li a span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0.17rem;
+}
+.nitashuo-container .item .fenxiang li a span.icon {
+  width: 0.36rem;
+  height: 0.36rem;
+}
+.nitashuo-container .item .fenxiang li a span.text {
+  text-align: center;
+  line-height: 0.36rem;
+  color: #7d7d7d;
+  font-size: 0.2rem;
+}
+.nitashuo-container .item .fenxiang li:nth-child(1) span.icon {
+  background: url(../imgs/home/pic5-tuijian/xx_img032.png) no-repeat center;
+  background-size: 0.26rem 0.23rem;
+}
+.nitashuo-container .item .fenxiang li:nth-child(2) span.icon {
+  background: url(../imgs/home/pic5-tuijian/xx_img034.png) no-repeat center;
+  background-size: 0.26rem 0.23rem;
+}
+.nitashuo-container .item .fenxiang li:nth-child(3) span.icon {
+  background: url(../imgs/home/pic5-tuijian/xx_img031.png) no-repeat center;
+  background-size: 0.26rem 0.23rem;
+}
+.nitashuo-container .item .fenxiang li:nth-child(4) span.icon {
+  background: url(../imgs/home/pic5-tuijian/xx_img033.png) no-repeat center;
+  background-size: 0.26rem 0.23rem;
+}

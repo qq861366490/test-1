@@ -1,0 +1,18 @@
+<footer>
+    <nav>
+        <ul>
+            <!--<li v-for="(item , index) in navList">
+                <a href="javascript:;">
+                    <div class="iconfont" :class="item.className"></div>
+                    <p>{{item.navName}}</p>
+                </a>
+            </li>-->
+            <router-link tag="li"  v-for="(item , index) in navList" :to="item.path" :key="index">
+                <a href="javascript:;">
+                    <div class="iconfont" :class="item.className"></div>
+                    <p>{{item.navName}}</p>
+                </a>
+            </router-link>
+        </ul>
+    </nav>
+</footer>

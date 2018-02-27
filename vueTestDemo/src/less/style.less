@@ -1,0 +1,166 @@
+@import "ba";
+@mBG : #f8f8f8;
+@mCl : #d12525;
+@hH : 0.67rem;
+@fH : 0.76rem;
+
+ body{
+     background: @mBG;
+ }
+
+ header{
+     position: fixed;
+     .wh(100%,@hH );
+     background: @mCl;
+
+     h3{
+         text-align: center;
+         color: #fff;
+         font:100  0.27rem e("/") @hH "microsoft YaHei";
+     }
+
+     .btn-box{
+         position: absolute;
+         top: 0;
+
+         .btn{
+             .wh(@hH,@hH);
+             display: inline-block;
+             line-height: @hH;
+             text-align: center;
+             color: #fff;
+             font-size: 0.18rem;
+         }
+
+         &.btn-box-left{
+             left : 0;
+             .pl(0.07rem);             
+         }
+         &.btn-box-right{
+             right : 0;
+             .pr(0.07rem);
+         }
+     }
+ }
+
+footer{
+    border-top:0.02rem solid #ebebeb;
+    background: rgba(255, 255, 255, 0.85);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    ul{
+        display: flex;
+
+        li{
+            flex: 1;
+            height: @fH;
+            
+            &.on{
+                a{
+                    color: @mCl;
+                }
+
+            }
+            a{
+                display: block;
+                text-align: center;
+                .pt(0.05rem);
+                box-sizing: border-box;
+                height: @fH;
+                @iconH : 0.43rem;
+                @pH : 0.24rem;
+                color : #666;
+
+                .iconfont{
+                    height: @iconH;
+                    line-height: @iconH;
+                }
+
+                p{
+                    height: @pH;
+                    line-height: @pH;
+                }
+            }
+        }
+    }
+}
+
+.main{
+    padding: @hH 0 @fH;
+}
+
+@nCH : 0.55rem;
+.newsClass{
+    display: flex;
+    background: #faf3f3;
+    .listBox{
+        flex: 1;
+        overflow-x: auto;
+        ul{
+            width: 6.00rem;
+            li{
+                    display: inline-block;
+                a{
+                    display: block;
+                    height: @nCH;
+                    font: 0.21rem/@nCH "Microsoft YaHei";
+                    color: #343434;
+                    padding : 0 0.2rem;
+                }
+            }
+        }
+    }
+    .iconfont{
+        width : 0.67rem;
+        height: @nCH;
+        line-height: @nCH;
+        color: #343434;
+        text-align: center;
+    }
+}
+.swiper-container{
+    .swiper-slide{
+        a{
+            display: block;
+            position: relative;
+        }
+        p{
+            @h : 0.52rem;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: @h;
+            line-height: @h;
+            box-sizing:border-box;
+            padding-left : 0.2rem; 
+            left: 0;
+            background: rgba(0, 0, 0, 0.4);
+            color: #fff;
+
+        }
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .swiper-pagination{
+        bottom : 0.1rem;
+        text-align: right;
+        padding-right: 0.2rem;
+        box-sizing: border-box;
+
+        .swiper-pagination-bullet{
+            opacity : 1;
+            background: #fff;
+
+            &.swiper-pagination-bullet-active{
+                background: @mCl;
+            }
+        }
+    }
+}

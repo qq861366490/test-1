@@ -1,0 +1,308 @@
+.home {
+  padding-bottom: 1rem;
+  padding-top: 0.86rem;
+}
+.home .home-header {
+  width: 100%;
+  height: 0.86rem;
+  background-color: #db2537;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home .home-header .img-box {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  height: 0.4rem;
+  overflow: hidden;
+  margin-left: 0.1rem;
+  margin-top: 0.2rem;
+  margin-right: 0.1rem;
+}
+.home .home-header .img-box img {
+  width: 100%;
+  height: auto;
+}
+.home .home-header .search {
+  -webkit-box-flex: 7;
+  -webkit-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  height: 0.56rem;
+  margin-top: 0.14rem;
+  padding-left: 0.4rem;
+  border-radius: 0.08rem;
+  background-color: #fff;
+  position: relative;
+}
+.home .home-header .search input {
+  border: none;
+  width: 90%;
+  height: 0.52rem;
+  line-height: 0.6rem;
+  padding-left: 0.06rem;
+  font-size: 0.24rem;
+}
+.home .home-header .search input::-webkit-input-placeholder {
+  font-size: 0.24rem;
+  line-height: 0.6rem;
+}
+.home .home-header .search span {
+  color: #fff;
+  position: absolute;
+  display: block;
+  width: 0.4rem;
+  height: 0.56rem;
+  left: 0;
+  top: 0;
+  color: #89898f;
+  line-height: 0.56rem;
+  text-align: center;
+}
+.home .home-header .search span.iconfont {
+  font-size: 0.4rem;
+}
+.home .home-header .right {
+  color: #fff;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 0.8rem;
+  text-align: center;
+  margin-top: 0.04rem;
+}
+.home .home-header .right span {
+  display: block;
+  text-align: center;
+}
+.home .home-header .right span.iconfont {
+  height: 50%;
+  line-height: 0.5rem;
+  font-size: 0.4rem;
+}
+.home .home-header .right span.text {
+  height: 50%;
+  line-height: 0.35rem;
+  font-size: 0.22rem;
+}
+.home .banner {
+  width: 100%;
+  height: 2.16rem;
+}
+.home .banner .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 2.16rem;
+  overflow: hidden;
+}
+.home .banner .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+.home .nav {
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+.home .nav ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.home .nav ul li {
+  width: 25%;
+}
+.home .nav ul li a {
+  display: block;
+  text-align: center;
+}
+.home .nav ul li a span.icon {
+  width: 1.27rem;
+  height: 1.23rem;
+  overflow: hidden;
+}
+.home .nav ul li a span.icon img {
+  width: 100%;
+  height: auto;
+}
+.home .nav ul li a span.text {
+  color: #5b595b;
+  font-size: 0.26rem;
+}
+.home .list0 {
+  width: 100%;
+  height: 4.36rem;
+  margin-bottom: 0.1rem;
+}
+.home .list0 .baokuan {
+  width: 45%;
+  height: 4.36rem;
+  box-sizing: border-box;
+  float: left;
+}
+.home .list0 .baokuan img {
+  width: 100%;
+  height: 100%;
+}
+.home .list0 .right {
+  float: left;
+  width: 55%;
+  height: 4.36rem;
+}
+.home .list0 .right .xinkuan {
+  width: 100%;
+  height: 2.18rem;
+}
+.home .list0 .right .xinkuan img {
+  width: 100%;
+  height: 100%;
+}
+.home .list0 .right .jingxuan {
+  width: 100%;
+  height: 2.18rem;
+}
+.home .list0 .right .jingxuan img {
+  width: 100%;
+  height: 100%;
+}
+.home .home-hot {
+  border-top: 0.1rem solid #ecedf6;
+}
+.home .home-hot .title {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-bottom: 0.02rem solid #e9eaea;
+}
+.home .home-hot .title span.re {
+  margin-left: 0.36rem;
+  margin-right: 0.06rem;
+  font-size: 0.22rem;
+  color: #1a1919;
+}
+.home .home-hot .title span.ht {
+  color: #c9caca;
+}
+.home .home-hot .title span.iconfont {
+  color: #c9caca;
+  font-size: 0.2rem;
+}
+.home .home-hot .content ul {
+  position: relative;
+}
+.home .home-hot .content ul li {
+  width: 20%;
+  height: 0.6rem;
+  padding: 0.1rem;
+  box-sizing: border-box;
+  float: left;
+}
+.home .home-hot .content ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #007AFF;
+  color: #fff;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  text-align: center;
+  border-radius: 0.12rem;
+}
+.home .home-hot .content ul .more {
+  width: 1.12rem;
+  height: 0.4rem;
+  position: absolute;
+  right: 0.1rem;
+  bottom: 0.1rem;
+}
+.home .home-hot .content ul .more a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #a8e812;
+  color: #fff;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  text-align: center;
+  border-radius: 0.12rem;
+}
+.home .home-like {
+  border-top: 0.1rem solid #ecedf6;
+  margin-bottom: 0.2rem;
+}
+.home .home-like .title {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-bottom: 0.02rem solid #e9eaea;
+}
+.home .home-like .title span.re {
+  margin-left: 0.36rem;
+  margin-right: 0.06rem;
+  font-size: 0.22rem;
+  color: #1a1919;
+}
+.home .home-like .title span.ht {
+  color: #c9caca;
+}
+.home .home-like .title span.iconfont {
+  color: #c9caca;
+  font-size: 0.2rem;
+}
+.home .home-like .content ul li {
+  float: left;
+  width: 50%;
+  padding: 0.3rem 0.06rem 0 0.15rem;
+  box-sizing: border-box;
+}
+.home .home-like .content ul li:nth-child(2n) {
+  padding-left: 0.06rem;
+  padding-right: 0.15rem;
+}
+.home .home-like .content ul li .img-box {
+  display: block;
+  width: 100%;
+  height: 4.3rem;
+}
+.home .home-like .content ul li .img-box img {
+  width: 100%;
+  height: 100%;
+}
+.home .home-like .content ul li p {
+  color: #000;
+  font-size: 0.22rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.36rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home .home-like .content ul li span {
+  margin-left: 0.16rem;
+  color: #e02232;
+  font-size: 0.24rem;
+}
+.home .home-like .content ul li .btn {
+  float: right;
+  margin-right: 0.1rem;
+  background-color: #db2537;
+  color: #fff;
+  font-size: 0.24rem;
+  width: 0.8rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  border-radius: 0.08rem;
+}

@@ -1,0 +1,249 @@
+//nitashuo 
+.nitashuo-head {
+    width: 100%;
+    height: 0.76rem;
+    background: #fff url(../imgs/index/ntslogo_300_90.png) no-repeat center;
+    background-size: 1.35rem 0.42rem;
+    border-bottom: 0.02rem solid #ebebeb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    .back {
+        display: block;
+        float: left;
+        width: 1rem;
+        height: 100%;
+        background: url(../imgs/index/fh.png) no-repeat center;
+        background-size: 0.4rem 0.4rem;
+    }
+    .search {
+        display: block;
+        float: right;
+        width: 0.8rem;
+        height: 100%;
+        background: url(../imgs/index/sea_tu01.png) no-repeat center;
+        background-size: 0.5rem 0.5rem;
+    }
+    .more {
+        display: block;
+        float: right;
+        width: 1rem;
+        height: 100%;
+        background: url(../imgs/index/dina.png) no-repeat center;
+        background-size: 0.4rem 0.4rem;
+    }
+    .head-nav {
+        width: 1.8rem;
+        height: 2.08rem;
+        box-sizing: border-box;
+        padding: 0 0.14rem;
+        border-radius: 0.1rem;
+        background: url(../imgs/index/minnav_206_line.png);
+        position: absolute;
+        right: 0.2rem;
+        top: 0.8rem;
+        li {
+            width: 100%;
+            height: 0.68rem;
+            line-height: 0.68rem;
+            border-top: 1px solid #5e5e5e;
+            
+            a {
+                display: block;
+                width: 100%;
+                height: 0.68rem;
+                box-sizing: border-box;
+                line-height: 0.68rem;
+                padding-left: 0.5rem;
+                color: #fff;
+                font-size: 0.2rem;
+            }
+            &:nth-child(1) {
+                border-top: none;
+                a {
+                    background: url(../imgs/index/minnav_img01.png) no-repeat center left;
+                    background-size: 0.35rem 0.35rem;
+                }
+            }
+            &:nth-child(2) {
+                a {
+                    background: url(../imgs/index/minnav_img02.png) no-repeat center left;
+                    background-size: 0.35rem 0.35rem;
+                }
+            }
+            &:nth-child(3) {
+                a {
+                    background: url(../imgs/index/minnav_img03.png) no-repeat center left;
+                    background-size: 0.35rem 0.35rem;
+                }
+            }
+        }
+        div {
+            width: 0.28rem;
+            height: 0.25rem;
+            position: absolute;
+            background: url(../imgs/index/minnav_30.png) no-repeat center;
+            background-size: 0.25rem 0.25rem;
+            top: -0.25rem;
+            right: 0.3rem;
+            z-index: 1001;
+        }
+    }
+}
+
+.nitashuo-nav {
+    width: 100%;
+    height: 0.7rem;
+    position: fixed;
+    top: 0.76rem;
+    left: 0;
+    background-color: #fff;
+    ul {
+        height: 0.7rem;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        li {
+            display: inline-block;
+            line-height: 0.6rem;
+            padding: 0 0.1rem;
+            margin: 0 0.1rem;
+            margin-bottom: 0.2rem;
+            box-sizing: border-box;
+            &.active {
+                border-bottom: #ff3366 2px solid;
+                a {
+                    color: #ff1550;
+                }
+            }
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                color: #666;
+                font-size: 0.24rem;
+            }
+        }
+    }
+}
+
+.nitashuo-container {
+    padding-top: 1.42rem;
+    width: 100%;
+    background-color: #f2f2f2;
+    width: 100%;
+    .content {
+        padding-top: 0.66rem;
+        padding-bottom: 0.9rem;
+    }
+    .item {
+        width: 100%;
+        margin-bottom: 0.2rem;
+        background-color: #fff;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .img {
+            width: 100%;
+            height: 4rem;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .centent {
+            padding: 0.2rem;
+            p {
+                width: 100%;
+                height: 0.4rem;
+                line-height: 0.4rem;
+                span.icon {
+                    display: inline-block;
+                    float: left;
+                    width: 0.26rem;
+                    height: 0.26rem;
+                    overflow: hidden;
+                    margin-top: 0.05rem;
+                    margin-right: 0.1rem;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                    }
+                }
+                span.text {
+                    float: left;
+                    font-size: 0.2rem;
+                    color: #ff3366;
+                }
+            }
+            h3 {
+                font-size: 0.28rem;
+                color: #000;
+                line-height: 0.5rem;
+            }
+            .text {
+                font-size: 0.2rem;
+                color: #989898;
+                line-height: 0.38rem;
+            }
+        }
+        .fenxiang {
+            width: 100%;
+            height: 0.7rem;
+            display: flex;
+            li {
+                flex: 1;
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    line-height: 0.36rem;
+                    text-align: center;
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-top: 0.17rem;
+                        &.icon {
+                            width: 0.36rem;
+                            height: 0.36rem;
+                        }
+                        &.text {
+                            text-align: center;
+                            line-height: 0.36rem;
+                            color: #7d7d7d;
+                            font-size: 0.2rem;
+                        }
+                    }
+                }
+                &:nth-child(1) {
+                    span.icon {
+                        background: url(../imgs/home/pic5-tuijian/xx_img032.png) no-repeat center;
+                        background-size: 0.26rem 0.23rem;
+                    }
+                }
+                &:nth-child(2) {
+                    span.icon {
+                        background: url(../imgs/home/pic5-tuijian/xx_img034.png) no-repeat center;
+                        background-size: 0.26rem 0.23rem;
+                    }
+                }
+                &:nth-child(3) {
+                    span.icon {
+                        background: url(../imgs/home/pic5-tuijian/xx_img031.png) no-repeat center;
+                        background-size: 0.26rem 0.23rem;
+                    }
+                }
+                &:nth-child(4) {
+                    span.icon {
+                        background: url(../imgs/home/pic5-tuijian/xx_img033.png) no-repeat center;
+                        background-size: 0.26rem 0.23rem;
+                    }
+                }
+            }
+        }
+    }
+}

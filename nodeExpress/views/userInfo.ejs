@@ -1,0 +1,20 @@
+<%# 展示用户信息 %>
+<ul class="user-info">
+    <li>
+        <span>用户名:</span><p><%= username %></p>
+    </li>
+    <li>
+        <span>email:</span><p><%= email %></p>
+    </li>
+</ul>
+<div>
+    <header>上传头像</header>
+    <form action="/file/head" method="post" enctype="multipart/form-data">
+        <input type="file" name="headImg" />
+        <input type="submit" value="上传" />
+    </form>
+</div>
+
+<ul class="socket-user-list">
+    <li><a href="javascript:;"></a></li>
+</ul>

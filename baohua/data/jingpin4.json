@@ -1,0 +1,58 @@
+{
+	"status": "1",
+	"msg": "获取商品列表成功。",
+	"data": [
+		{
+			"productId": "1bepom18lkjm",
+			"productName": "新款春夏装韩版宽松显瘦潮口袋牛仔背带裙百搭连衣裙",
+			"productBatch": "31.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepom18lkjm_1.jpg"
+		}, {
+			"productId": "1bepohikgkio",
+			"productName": "新款水溶蕾丝鱼尾裙性感修身显瘦气质镂空连衣裙",
+			"productBatch": "48.4",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepohikgkio_1.jpg"
+		}, {
+			"productId": "1bepodegoki7",
+			"productName": "欧根纱连衣裙女夏露肩收腰海边沙滩露背吊带无袖",
+			"productBatch": "36.8",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepodegoki7_1.jpg"
+		}, {
+			"productId": "1bepo9mfhkhh",
+			"productName": "新款韩版气质名媛高腰显瘦减龄挂脖无袖A字裙连衣裙",
+			"productBatch": "41.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepo9mfhkhh_1.jpg"
+		}, {
+			"productId": "1bepo4utskgo",
+			"productName": "夏新款女装韩版修身甜美时尚印花裙短袖欧根纱连衣裙",
+			"productBatch": "36.8",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepo4utskgo_1.jpg"
+		}, {
+			"productId": "1bepnv8g0kf7",
+			"productName": "2017夏季新款水溶蕾丝甜美清新荷叶飞飞袖连衣裙",
+			"productBatch": "53.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepnv8g0kf7_1.jpg"
+		}, {
+			"productId": "1bepnmi74kdt",
+			"productName": "新款性感名媛镂空修身甜美A字蕾丝连衣裙女水溶蕾丝裙子",
+			"productBatch": "53.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepnmi74kdt_1.jpg"
+		}, {
+			"productId": "1bepn7m3ekca",
+			"productName": "礼服裙2017夏装修身性感纯色A型蕾丝水溶短袖晚宴连衣裙",
+			"productBatch": "53.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepn7m3ekca_1.jpg"
+		}, {
+			"productId": "1bepn1cfek9j",
+			"productName": "夏季新款韩版中长款V领无袖蕾丝勾花连衣裙高腰背心打底裙女",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepn1cfek9j_1.jpg"
+		}, {
+			"productId": "1bepmqc4ok87",
+			"productName": "夏新款欧根纱连衣裙女修身不规则沙滩长裙蓬蓬公主裙",
+			"productBatch": "53.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepmqc4ok87_1.jpg"
+		}
+	],
+	"totalPage": 140
+} 

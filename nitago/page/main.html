@@ -1,0 +1,24 @@
+<div ui-view class="main"></div>
+<footer>
+	<a href="javascript:;" class="nitashuo" ng-class="{true:'active',false:''}[active == '/nitashuo']" ng-click="goPage('/nitashuo')">
+		<span class="icon"></span>
+		<span class="content">你他说</span>
+	</a>
+	<a href="javascript:;" class="fenlei"  ng-class="{true:'active',false:''}[active == '/category']" ng-click="goPage('/category')">
+		<span class="icon"></span>
+		<span class="content">分类</span>
+	</a>
+	<a href="javascript:;" class="shouye" ng-class="{true:'active',false:''}[active == '/home']" ng-click="goPage('/home')">
+		<span class="icon-home"></span>
+		<span class="content">首页</span>
+	</a>
+	<a href="javascript:;" class="wode" ng-class="{true:'active',false:''}[active == '/member']" ng-click="goPage('/member')">
+		<span class="icon"></span>
+		<span class="content">我的</span>
+	</a>
+	<a href="javascript:;" class="fujin" ng-class="{true:'active',false:''}[active == '/nearby']" ng-click="goPage('/nearby')">
+		<span class="icon"></span>
+		<span class="content">附近</span>
+	</a>
+	
+</footer>

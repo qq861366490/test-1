@@ -1,0 +1,66 @@
+body, html{
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.reg-form{
+  display: block;
+  width: 600px;
+  margin:20px auto;
+  border:1px dashed #ccc;
+  text-align: center;
+  padding:15px 0;
+}
+
+.reg-form label{
+  display: block;
+  padding: 10px 0;
+}
+
+.reg-form label input{
+  width: 300px;
+  padding : 0 8px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+  border:1px solid #ccc;
+}
+
+.reg-form label p{
+  display: inline-block;
+  width: 300px;
+  margin:0;
+  text-align: left;
+  }
+
+.reg-form label p.right{
+  color: #1cc112;
+}
+.reg-form label p.error{
+  color: #e60808;
+}
+.reg-form label.info{
+  padding:0;
+  margin:-5px 0 10px 0;
+}
+
+.reg-form input[type=submit]{
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.reg-form label span{
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  margin-right: 10px;
+}

@@ -1,0 +1,26 @@
+{
+	"hot": [
+		{
+			"goodsImg":"imgs/home/pic1-rexiao/hot/1491467884.jpg",
+			"goodsId": 3
+		},
+		{
+			"goodsImg":"imgs/home/pic1-rexiao/hot/1491467936.jpg",
+			"goodsId": 4
+		}
+	],
+	"putong": [
+		{
+			"goodsImg":"imgs/home/pic1-rexiao/new/1491468844.jpg",
+			"goodsId": 5
+		},
+		{
+			"goodsImg":"imgs/home/pic1-rexiao/new/1491468876.jpg",
+			"goodsId": 6
+		},
+		{
+			"goodsImg":"imgs/home/pic1-rexiao/new/1491468915.jpg",
+			"goodsId": 7
+		}
+	]
+}

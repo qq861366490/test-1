@@ -1,0 +1,324 @@
+header.nearby-head {
+  width: 100%;
+  height: 1.52rem;
+  background-color: #efeeec;
+  font-size: 0.26rem;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+header.nearby-head .map {
+  width: 75%;
+  height: 52%;
+  margin: 0 auto;
+}
+header.nearby-head .map .content {
+  height: 100%;
+  padding-left: 0.4rem;
+  background: url(../imgs/index/head_l_32.png) no-repeat center left;
+  background-size: 0.26rem 0.26rem;
+}
+header.nearby-head .map .content .text {
+  height: 100%;
+  line-height: 3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 0.4rem;
+  background: url(../imgs/index/head_r_32.png) no-repeat center right;
+  background-size: 0.2rem 0.2rem;
+  overflow: hidden;
+}
+header.nearby-head .search {
+  width: 100%;
+  height: 48%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+header.nearby-head .search .left-btn {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  height: 100%;
+  float: left;
+  background: url(../imgs/index/nav_img31.png) no-repeat center 0.05rem;
+  background-size: 0.46rem 0.46rem;
+}
+header.nearby-head .search .input {
+  -webkit-box-flex: 12;
+  -webkit-flex: 12;
+      -ms-flex: 12;
+          flex: 12;
+  height: 0.57rem;
+  border-radius: 0.06rem;
+  background-color: #fff;
+  float: left;
+  margin: 0 auto;
+}
+header.nearby-head .search .input input {
+  display: block;
+  float: left;
+  width: 3.6rem;
+  line-height: 0.57rem;
+  height: 100%;
+  font-size: 0.22rem;
+  padding: 0 0.08rem;
+  border: none;
+}
+header.nearby-head .search .input input::-webkit-input-placeholder {
+  font-size: 0.22rem;
+  color: #afafaf;
+  line-height: 0.57rem;
+}
+header.nearby-head .search .input input:-moz-placeholder {
+  font-size: 0.22rem;
+  color: #afafaf;
+}
+header.nearby-head .search .input input::-moz-placeholder {
+  font-size: 0.22rem;
+  color: #afafaf;
+}
+header.nearby-head .search .input input:-ms-input-placeholder {
+  font-size: 0.22rem;
+  color: #afafaf;
+}
+header.nearby-head .search .input .search-btn {
+  display: block;
+  float: right;
+  width: 0.4rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 0.3rem;
+  margin-right: 0.2rem;
+  margin-top: 0.12rem;
+  color: #949494;
+}
+header.nearby-head .search .right-btn {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  height: 100%;
+  float: right;
+  background: url(../imgs/index/homesea_r.png) no-repeat center 0.05rem;
+  background-size: 0.46rem 0.46rem;
+}
+.nearby-container {
+  width: 100%;
+  background-color: #fff;
+  padding-top: 1.52rem;
+  padding-bottom: 0.92rem;
+  overflow-y: auto;
+}
+.nearby-container .nearby-nav {
+  width: 100%;
+  height: 0.7rem;
+  background-color: #fff;
+}
+.nearby-container .nearby-nav ul {
+  height: 0.7rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: 0.02rem solid #e9e9e9;
+}
+.nearby-container .nearby-nav ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 70%;
+  line-height: 0.5rem;
+  margin-top: 0.1rem;
+  border-left: 1px solid #e2e2e2;
+  box-sizing: border-box;
+}
+.nearby-container .nearby-nav ul li:first-child {
+  border-left: 0;
+}
+.nearby-container .nearby-nav ul li.active a {
+  color: #ff1550;
+  border-bottom: #ff3366 0.05rem solid;
+}
+.nearby-container .nearby-nav ul li a {
+  display: block;
+  width: 70%;
+  height: 120%;
+  margin: 0 auto;
+  color: #666;
+  font-size: 0.24rem;
+  text-align: center;
+}
+.nearby-container .nearby-content {
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.nearby-container .nearby-content .store-con {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.2rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+.nearby-container .nearby-content .store-con .left {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  border: 1px solid #d4d4d4;
+  overflow: hidden;
+}
+.nearby-container .nearby-content .store-con .left img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.nearby-container .nearby-content .store-con .right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 0.2rem;
+}
+.nearby-container .nearby-content .store-con .right .title {
+  width: 100%;
+  height: 0.4rem;
+}
+.nearby-container .nearby-content .store-con .right .title .text {
+  float: left;
+  font-size: 0.26rem;
+  color: #666;
+}
+.nearby-container .nearby-content .store-con .right .title a {
+  float: right;
+  width: 1.24rem;
+  height: 0.4rem;
+  border-radius: 0.06rem;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 0.22rem;
+  background-color: #ff3366;
+  color: #fff;
+}
+.nearby-container .nearby-content .store-con .right .pinfen {
+  width: 100%;
+  height: 0.4rem;
+}
+.nearby-container .nearby-content .store-con .right .pinfen .pinjia {
+  height: 100%;
+}
+.nearby-container .nearby-content .store-con .right .pinfen .pinjia .icon {
+  box-sizing: border-box;
+  margin-top: 0.06rem;
+}
+.nearby-container .nearby-content .store-con .right .pinfen .pinjia .icon span {
+  display: inline-block;
+  width: 0.18rem;
+  height: 0.18rem;
+  margin: 0.02rem;
+  float: left;
+  overflow: hidden;
+}
+.nearby-container .nearby-content .store-con .right .pinfen .pinjia .icon span img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.nearby-container .nearby-content .store-con .right .pinfen .pinjia .rating {
+  float: left;
+  margin-left: 0.1rem;
+  color: #fc9921;
+  font-size: 0.16rem;
+  line-height: 0.26rem;
+}
+.nearby-container .nearby-content .store-con .right .pinfen .xiaoshou {
+  font-size: 0.2rem;
+  line-height: 0.3rem;
+  color: #8d8d8d;
+}
+.nearby-container .nearby-content .store-con .right .pinfen .xiaoshou .yueshou.hide {
+  display: none;
+}
+.nearby-container .nearby-content .store-con .right .pinfen .xiaoshou .juli.hide {
+  display: none;
+}
+.nearby-container .nearby-content .store-con .right .fenlei {
+  width: 100%;
+  height: 0.55rem;
+  line-height: 0.55rem;
+  text-align: left;
+  margin-top: 0.3rem;
+}
+.nearby-container .nearby-content .store-con .right .fenlei span {
+  display: inline-block;
+  height: 0.38rem;
+  padding: 0 0.08rem;
+  line-height: 0.36rem;
+  text-align: center;
+  border: 1px dashed #ff3365;
+  border-radius: 0.06rem;
+  box-sizing: border-box;
+  margin: 0.08rem 0.08rem 0.08rem 0;
+  color: #ff3365;
+  font-size: 0.2rem;
+}
+.nearby-container .nearby-content .store-con .right .addres {
+  color: #676767;
+  font-size: 0.2rem;
+}
+.nearby-container .nearby-content .store-con .right .note {
+  margin-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  height: 0.7rem;
+  width: 5.16rem;
+  border-top: 1px dashed #c8c8c8;
+  border-bottom: 1px dashed #c8c8c8;
+  background: url(../imgs/index/xb_lb.png) no-repeat left 0.28rem;
+  background-size: 0.2rem 0.2rem;
+}
+.nearby-container .nearby-content .store-con .right .note .text {
+  background: url(../imgs/index/head_r_32.png) no-repeat right 0.24rem;
+  background-size: 0.2rem 0.2rem;
+}
+.nearby-container .nearby-content .store-con .right .note .text a {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0.1rem 0.28rem;
+  font-size: 0.2rem;
+  color: #7c7c7c;
+  line-height: 0.55rem;
+}
+.nearby-container .nearby-content .store-con .right .note2 {
+  margin-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  overflow: hidden;
+  width: 5.16rem;
+  border-top: 1px dashed #c8c8c8;
+  border-bottom: 1px dashed #c8c8c8;
+  background: url(../imgs/index/xb_lb.png) no-repeat left 0.28rem;
+  background-size: 0.2rem 0.2rem;
+  display: none;
+}
+.nearby-container .nearby-content .store-con .right .note2 .text {
+  background: url(../imgs/index/head_t_32.png) no-repeat right 0.24rem;
+  background-size: 0.2rem 0.2rem;
+}
+.nearby-container .nearby-content .store-con .right .note2 .text a {
+  display: block;
+  padding: 0.18rem 0.28rem;
+  font-size: 0.2rem;
+  color: #7c7c7c;
+  line-height: 0.36rem;
+}

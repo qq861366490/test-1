@@ -1,0 +1,58 @@
+{
+	"status": "1",
+	"msg": "获取商品列表成功。",
+	"data": [
+		{
+			"productId": "1avdh51egfeh",
+			"productName": "秋冬季半高领套头毛衣女装宽松纯色加厚短款针织衫",
+			"productBatch": "29.0",
+			"productImage": "http://images.baohua.com/productimage/long/2016/10/1avdh51egfeh-middle.jpg"
+		}, {
+			"productId": "1asu6434ib0i",
+			"productName": "2016秋装新款 磨破做旧针织背心马甲",
+			"productBatch": "33.9",
+			"productImage": "http://images.baohua.com/productimage/long/2016/09/1asu6434ib0i-middle.jpg"
+		}, {
+			"productId": "1b5pdcjpv9gq",
+			"productName": "2017春夏新款优质织带针织衫百搭空调衫打底衫",
+			"productBatch": "29.0",
+			"productImage": "http://images.baohua.com/productimage/long/2016/12/1b5pdcjpv9gq-middle.jpg"
+		}, {
+			"productId": "1auepd7ef5a3",
+			"productName": "2016秋季韩版圆领套头针织衫中长款长袖撞色学生装毛衣",
+			"productBatch": "61.0",
+			"productImage": "http://images.baohua.com/productimage/long/2016/10/1auepd7ef5a3-middle.jpg"
+		}, {
+			"productId": "1ari7k72rep6",
+			"productName": "2016秋款新款 宽松慵懒韩版女装中长款套头针织衫毛衣",
+			"productBatch": "40.7",
+			"productImage": "http://images.baohua.com/productimage/long/2016/08/1ari7k72rep6-middle.jpg"
+		}, {
+			"productId": "1as17tsq4nsf",
+			"productName": "秋季明星同款中长毛衣女 针织衫长袖套头镂空宽松V领大码",
+			"productBatch": "40.7",
+			"productImage": "http://images.baohua.com/productimage/long/2016/09/1as17tsq4nsf-middle.jpg"
+		}, {
+			"productId": "1ari40rvfeas",
+			"productName": "2016秋装新款 韩国女装宽松大码拼色中长款套头毛衣针织衫",
+			"productBatch": "48.4",
+			"productImage": "http://images.baohua.com/productimage/long/2016/08/1ari40rvfeas-middle.jpg"
+		}, {
+			"productId": "1b57bj14k8ap",
+			"productName": "新款宽松套头短款加厚高领毛衣秋季韩版针织毛衫女",
+			"productBatch": "28.1",
+			"productImage": "http://images.baohua.com/productimage/long/2016/12/1b57bj14k8ap-middle.jpg"
+		}, {
+			"productId": "1att112e0v8o",
+			"productName": " 2016新款韩版学生秋季套头毛衣长袖宽松大码条纹针织衫",
+			"productBatch": "41.6",
+			"productImage": "http://images.baohua.com/productimage/long/2016/09/1att112e0v8o-middle.jpg"
+		}, {
+			"productId": "1avb8epnfauq",
+			"productName": "套头毛衣女短款秋冬季宽松针织衫纯色韩版学生外套加厚上衣半高领",
+			"productBatch": "25.2",
+			"productImage": "http://images.baohua.com/productimage/long/2016/10/1avb8epnfauq-middle.jpg"
+		}
+	],
+	"totalPage": 23
+} 

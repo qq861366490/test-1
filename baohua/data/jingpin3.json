@@ -1,0 +1,58 @@
+{
+	"status": "1",
+	"msg": "获取商品列表成功。",
+	"data": [
+		{
+			"productId": "1beppipiqkp3",
+			"productName": "时尚性感三件套刺绣短裙名媛小香风套装女夏装时尚潮",
+			"productBatch": "56.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beppipiqkp3_1.jpg"
+		}, {
+			"productId": "1beppep9ekok",
+			"productName": "新款夏季吊带荷叶边牛仔上衣+包臀半身裙套装",
+			"productBatch": "48.4",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beppep9ekok_1.jpg"
+		}, {
+			"productId": "1bepp8i5pknd",
+			"productName": "2017夏季新款时尚一字领牛仔套装中袖露肩两件套",
+			"productBatch": "48.4",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepp8i5pknd_1.jpg"
+		}, {
+			"productId": "1bepp09h4klo",
+			"productName": "新款时尚套装女韩版简约休闲短潮流上衣短裤两件套",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepp09h4klo_1.jpg"
+		}, {
+			"productId": "1beporr9fkl5",
+			"productName": "夏季新款时尚套装针织吊带上衣加短裤套装",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beporr9fkl5_1.jpg"
+		}, {
+			"productId": "1bepomvo5kkd",
+			"productName": "夏季新款甜美舒适精品高端蕾丝套装两件套套装",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepomvo5kkd_1.jpg"
+		}, {
+			"productId": "1bemjbkekdnd",
+			"productName": "夏无袖西装领马甲+西装短裤 两件套 通勤马甲女式西装套装",
+			"productBatch": "46.5",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bemjbkekdnd_4.jpg"
+		}, {
+			"productId": "1bei64v1v09s",
+			"productName": "新款打底修身纯色背心+网纱下摆不规则中长款套装",
+			"productBatch": "35.8",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei64v1v09s_1.jpg"
+		}, {
+			"productId": "1bei61ork09f",
+			"productName": "纯色字母印花紧身T恤+时尚韩版收腰拉链牛仔裙套装",
+			"productBatch": "51.3",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei61ork09f_1.jpg"
+		}, {
+			"productId": "1bei5ud6k094",
+			"productName": "纯色字母印花宽松T恤+时尚韩版收腰拉链牛仔裙套装",
+			"productBatch": "60.0",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei5ud6k094_1.jpg"
+		}
+	],
+	"totalPage": 38
+}  

@@ -1,0 +1,180 @@
+.login-head {
+  width: 100%;
+  height: 0.74rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.login-head .left {
+  width: 1.1rem;
+  height: 0.74rem;
+}
+.login-head .left a {
+  display: block;
+  float: left;
+  width: 100%;
+  height: 0.74rem;
+  background: url(../imgs/reglog/xx.png) no-repeat center;
+  background-size: 0.3rem 0.3rem;
+}
+.login-head .right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 0.12rem;
+}
+.login-head .right a {
+  float: left;
+  width: 1.7rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  color: #ff3366;
+  font-size: 0.22rem;
+  border-radius: 0.05rem;
+  margin: 0 0.2rem;
+  border: 1px solid #ff3366;
+}
+.login-head .right a.login.active {
+  background-color: #ff3366;
+  color: #fff;
+}
+.login-head .right a.regist.active {
+  background-color: #ff3366;
+  color: #fff;
+}
+.login-content .form {
+  width: 100%;
+  margin-top: 0.2rem;
+  background-color: #fff;
+}
+.login-content .form form {
+  width: 100%;
+  padding: 0 0.2rem;
+}
+.login-content .form form input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  line-height: 0.74rem;
+  font-size: 0.22rem;
+}
+.login-content .form form input::-webkit-input-placeholder {
+  font-size: 0.22rem;
+  color: #b3b3b3;
+  line-height: 0.57rem;
+}
+.login-content .form form input:-moz-placeholder {
+  font-size: 0.22rem;
+  color: #b3b3b3;
+}
+.login-content .form form input::-moz-placeholder {
+  font-size: 0.22rem;
+  color: #b3b3b3;
+}
+.login-content .form form input:-ms-input-placeholder {
+  font-size: 0.22rem;
+  color: #b3b3b3;
+}
+.login-content .form form .phone {
+  width: 100%;
+  height: 0.74rem;
+  padding-left: 0.45rem;
+  border-bottom: 1px solid #e8e8e8;
+  background-color: #fff;
+  background: url(../imgs/reglog/login_xb_img01.png) no-repeat left center;
+  background-size: 0.44rem 0.44rem;
+}
+.login-content .form form .password {
+  width: 100%;
+  height: 0.74rem;
+  padding-left: 0.45rem;
+  background-color: #fff;
+  background: url(../imgs/reglog/login_xb_img02.png) no-repeat left center;
+  background-size: 0.44rem 0.44rem;
+}
+.login-content .wangji {
+  width: 100%;
+  padding: 0 0.3rem;
+  height: 0.74rem;
+  line-height: 0.74rem;
+}
+.login-content .wangji a {
+  float: right;
+  font-size: 0.22rem;
+  color: #999;
+}
+.login-content .logBtn {
+  width: 100%;
+}
+.login-content .logBtn a.login-btn {
+  display: block;
+  width: 5.86rem;
+  height: 0.74rem;
+  border: 1px solid #ff134e;
+  border-radius: 0.05rem;
+  line-height: 0.74rem;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.24rem;
+  color: #ff134e;
+}
+.login-content .qita {
+  width: 100%;
+  height: 3rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.login-content .qita .title {
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 0.22rem;
+  color: #656565;
+}
+.login-content .qita .title .line {
+  width: 1.92rem;
+  height: 0.2rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+.login-content .qita .title .line:first-child {
+  float: left;
+  margin-top: 0.1rem;
+}
+.login-content .qita .title .line:last-child {
+  float: right;
+  margin-top: 0.1rem;
+}
+.login-content .qita .content {
+  width: 3rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+.login-content .qita .content a {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: #8c8c8c;
+}
+.login-content .qita .content a span {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0.1rem auto;
+}
+.login-content .qita .content a.weixin span {
+  background: #e5302f url(../imgs/reglog/wb.png) no-repeat center;
+  background-size: 0.6rem 0.6rem;
+}
+.login-content .qita .content a.qq span {
+  background: #47b6ed url(../imgs/reglog/qq.png) no-repeat center;
+  background-size: 0.6rem 0.6rem;
+}

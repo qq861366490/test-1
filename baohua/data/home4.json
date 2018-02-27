@@ -1,0 +1,59 @@
+{
+	"prodectsInfo": [
+		{
+			"productId": "1bei5piu66g7",
+			"productName": "新款2017韩版时尚百搭不规则半身裙女A字裙高腰短裙",
+			"productBatch": "31.0",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei5piu66g7_1.jpg"
+		}, {
+			"productId": "1bei5auq56cj",
+			"productName": "2017夏季新款时尚口袋百搭半身裙A字短裙",
+			"productBatch": "29.0",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei5auq56cj_1.jpg"
+		}, {
+			"productId": "1bei55d8a6ai",
+			"productName": "2017夏季新款时尚印花碎花半身裙A字裙",
+			"productBatch": "31.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei55d8a6ai_1.jpg"
+		}, {
+			"productId": "1bei3fhv45u5",
+			"productName": "2017夏装新款波西米亚印花连衣裙修身显瘦沙滩裙度假裙",
+			"productBatch": "40.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei3fhv45u5_1.jpg"
+		}, {
+			"productId": "1bei34pdd5pj",
+			"productName": "2017夏新款露背沙滩裙吊带裙显瘦碎花波西米亚海边度假裙",
+			"productBatch": "27.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei34pdd5pj_1.jpg"
+		}, {
+			"productId": "1bei1csqk581",
+			"productName": "2017夏装新款波西米亚长裙沙滩裙雪纺印花连衣裙背心裙女",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei1csqk581_1.jpg"
+		}, {
+			"productId": "1bei0nm8f52s",
+			"productName": "2017夏新款波西米亚长裙沙滩裙雪纺印花连衣裙背心裙女",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bei0nm8f52s_0.jpg"
+		}, {
+			"productId": "1behvg6bn4qj",
+			"productName": "2017夏新款女波西米亚沙滩裙雪纺印花大摆长裙连衣裙",
+			"productBatch": "36.8",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1behvg6bn4qj_1.jpg"
+		}, {
+			"productId": "1behv17ns4nh",
+			"productName": "2017夏新款波西米亚修身显瘦长裙沙滩裙豹纹印花雪纺连衣裙",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1behv17ns4nh_1.jpg"
+		}, {
+			"productId": "1behucb8r4j9",
+			"productName": "2017春夏新款波西米亚长裙沙滩裙修身显瘦雪纺大码连衣裙",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1behucb8r4j9_1.jpg"
+		}
+	],
+	"totalPage": 30,
+	"status": "1",
+	"msg": "获取信息成功!",
+	"data": {}
+} 

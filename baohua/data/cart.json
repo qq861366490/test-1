@@ -1,0 +1,24 @@
+{
+	"status": "1",
+	"msg": "获取购物车成功。",
+	"data": {
+		"productId": "1bepn7m3ekca",
+		"productImage": "http://images.baohua.com/productimage/2017/04/square/1bepn7m3ekca_1-middle.jpg",
+		"productName": "礼服裙2017夏装修身性感纯色A型蕾丝水溶短袖晚宴连衣裙",
+		"productModels": "GZGT-AF03-WK4189",
+		"batchThree": "53.2",
+		"batchTwo": "51.3",
+		"batchOne": "48.9",
+		"shoppingId": "1bet02gf9oum",
+		"color": "白色系",
+		"colorCode": "20012",
+		"sizes": "S",
+		"sizesCode": "11003",
+		"unitQty": 1,
+		"caseQty": 0,
+		"fullPrice": 55,
+		"unitPrice": "53.20",
+		"buySumProduct": 20,
+		"isBatchPrice": "0"
+	}
+} 

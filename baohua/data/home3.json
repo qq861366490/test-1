@@ -1,0 +1,59 @@
+{
+	"prodectsInfo": [
+		{
+			"productId": "1bekj305tat3",
+			"productName": "2017夏季新款时尚百搭格子长袖防晒衬衫",
+			"productBatch": "37.8",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekj305tat3_1.jpg"
+		}, {
+			"productId": "1bekiu9tkasg",
+			"productName": "2017夏季新款时尚百搭无袖直筒纯色衬衫女夏",
+			"productBatch": "33.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekiu9tkasg_1.jpg"
+		}, {
+			"productId": "1bekibet1ape",
+			"productName": "2017夏季新款时尚百搭小清新百搭上衣T恤",
+			"productBatch": "29.0",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekibet1ape_1.jpg"
+		}, {
+			"productId": "1beki64dranr",
+			"productName": "2017夏季新款时尚甜美棉麻衬衫女五分袖学院风",
+			"productBatch": "33.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beki64dranr_1.jpg"
+		}, {
+			"productId": "1bekgjvveahd",
+			"productName": "2017夏季新款时尚复古格子立领五分袖连衣裙",
+			"productBatch": "52.3",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekgjvveahd_1.jpg"
+		}, {
+			"productId": "1bekg60ieafi",
+			"productName": "2017夏季新款时尚文艺复古格子七分袖改良旗袍",
+			"productBatch": "53.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekg60ieafi_1.jpg"
+		}, {
+			"productId": "1bekfmqk7abq",
+			"productName": "2017夏季新款时尚百搭印花网纱半身裙中长裙",
+			"productBatch": "42.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekfmqk7abq_1.jpg"
+		}, {
+			"productId": "1bekfbnfna9q",
+			"productName": "2017夏季新款小清新系带碎花雪纺半身裙A字裙",
+			"productBatch": "38.7",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekfbnfna9q_1.jpg"
+		}, {
+			"productId": "1bekepenra68",
+			"productName": "2017夏季新款时尚甜美系带纯色雪纺半身裙中长裙",
+			"productBatch": "36.8",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekepenra68_1.jpg"
+		}, {
+			"productId": "1bekdnmki9vu",
+			"productName": "2017夏季新款时尚百搭不对称短裙A字裙",
+			"productBatch": "31.0",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bekdnmki9vu_1.jpg"
+		}
+	],
+	"totalPage": 30,
+	"status": "1",
+	"msg": "获取信息成功!",
+	"data": {}
+} 

@@ -1,0 +1,86 @@
+<header class="nitashuo-head">
+	<a href="javascript:;" class="back" onclick = "history.back(-1)"></a>
+	<a href="javascript:;" class="more" ng-click="isShow()"></a>
+	<a href="javascript:;" class="search" ng-click=""></a>
+	<ul class="head-nav" ng-show="show">
+		<li>
+			<a href="javascript:;" ng-click = "goPage('/home')">首页</a>
+		</li>
+		<li>
+			<a href="javascript:;" >联系客服</a>
+		</li>
+		<li>
+			<a href="javascript:;">分享</a>
+		</li>
+		<div></div>
+	</ul>
+</header>
+<nav class="nitashuo-nav">
+	<ul>
+		<li ng-click="showList(0)" ng-class="{true: 'active',false: ''}[index == 0]">
+			<a href="javascript:;">星级个护</a>
+		</li>
+		<li ng-click="showList(1)" ng-class="{true: 'active',false: ''}[index == 1]">
+			<a href="javascript:;">撩人美妆</a>
+		</li>
+		<li ng-click="showList(2)" ng-class="{true: 'active',false: ''}[index == 2]">
+			<a href="javascript:;">靠谱保健</a>
+		</li>
+		<li ng-click="showList(3)" ng-class="{true: 'active',false: ''}[index == 3]">
+			<a href="javascript:;">味蕾诱惑</a>
+		</li>
+		<li ng-click="showList(4)" ng-class="{true: 'active',false: ''}[index == 4]">
+			<a href="javascript:;">居家美学</a>
+		</li>
+		<li ng-click="showList(5)" ng-class="{true: 'active',false: ''}[index == 5]">
+			<a href="javascript:;">口碑母婴</a>
+		</li>
+		<li ng-click="showList(6)" ng-class="{true: 'active',false: ''}[index == 6]">
+			<a href="javascript:;">视频社区</a>
+		</li>
+	</ul>
+</nav>
+<div class="nitashuo-container">
+	<div class="content">
+		<div class="item" ng-repeat="item in nita">
+			<a href="javascript:;">
+				<div class="img">
+					<img ng-src="{{item.imgs}}" alt="" />
+				</div>
+				<div class="centent">
+					<p><span class="icon"><img ng-src="{{item.icon}}" alt="" /></span><span class="text" ng-bind-template="{{item.class}}"></span></p>
+					<h3 ng-bind-template="{{item.title}}"></h3>
+					<div class="text" ng-bind-template="{{item.text}}"></div>
+				</div>
+
+			</a>
+			<ul class="fenxiang">
+				<li>
+					<a href="javascript:;">
+						<span class="icon"></span>
+						<span class="text" ng-bind-template="{{item.xihuan}}"></span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="icon"></span>
+						<span class="text" ng-bind-template="{{item.pinlun}}"></span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="icon"></span>
+						<span class="text" ng-bind-template="{{item.shoucang}}"></span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<span class="icon"></span>
+						<span class="text">分享</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</div>

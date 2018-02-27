@@ -1,0 +1,58 @@
+{
+	"status": "1",
+	"msg": "获取商品列表成功。",
+	"data": [
+		{
+			"productId": "1beppep9ekok",
+			"productName": "新款夏季吊带荷叶边牛仔上衣+包臀半身裙套装",
+			"productBatch": "48.4",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beppep9ekok_1.jpg"
+		}, {
+			"productId": "1bepp09h4klo",
+			"productName": "新款时尚套装女韩版简约休闲短潮流上衣短裤两件套",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepp09h4klo_1.jpg"
+		}, {
+			"productId": "1beporr9fkl5",
+			"productName": "夏季新款时尚套装针织吊带上衣加短裤套装",
+			"productBatch": "43.6",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beporr9fkl5_1.jpg"
+		}, {
+			"productId": "1bepksa1dk2p",
+			"productName": "韩版时尚新品学生格子衬衣松紧收腰蝙蝠中袖荷叶边上衣",
+			"productBatch": "33.9",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepksa1dk2p_1.jpg"
+		}, {
+			"productId": "1bephreufjda",
+			"productName": "韩版宽松显瘦灯笼袖蓝色条纹衬衫女V领漏背短袖上衣 ",
+			"productBatch": "27.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bephreufjda_1.jpg"
+		}, {
+			"productId": "1bephcnpvjbl",
+			"productName": "夏季韩版一字领蕾丝花边吊带露肩宽松雪纺衫短袖上衣",
+			"productBatch": "27.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bephcnpvjbl_1.jpg"
+		}, {
+			"productId": "1beph7e50jb1",
+			"productName": "2017夏装新款学生短袖显瘦百搭喇叭半袖雪纺衫上衣体恤",
+			"productBatch": "25.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1beph7e50jb1_1.jpg"
+		}, {
+			"productId": "1bepguss9ja9",
+			"productName": "2017新款半袖打底衫学生百搭V领雪纺上衣",
+			"productBatch": "27.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepguss9ja9_1.jpg"
+		}, {
+			"productId": "1bepgpfblj9a",
+			"productName": "夏季韩版系带蝴蝶结喇叭袖碎花套头雪纺衫女荷叶领打底上衣",
+			"productBatch": "27.1",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepgpfblj9a_1.jpg"
+		}, {
+			"productId": "1bepghiqhj83",
+			"productName": "短袖T恤女士新款春夏装韩范半袖网纱拼接V领雪纺上衣小衫",
+			"productBatch": "25.2",
+			"productImage": "http://images.baohua.com/productimage/2017/04/long/1bepghiqhj83_1.jpg"
+		}
+	],
+	"totalPage": 71
+}  

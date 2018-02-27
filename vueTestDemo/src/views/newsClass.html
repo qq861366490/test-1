@@ -1,0 +1,12 @@
+<nav class="newsClass">
+    <div class="listBox">
+        <ul>
+            <router-link v-for="(item , index) in classList" tag="li" :to="item.path" :key="index">
+                <a href="javascript:;">
+                    {{item.text}}
+                </a>
+            </router-link>
+        </ul>
+    </div>
+    <div class="iconfont it-conDown"></div>
+</nav>

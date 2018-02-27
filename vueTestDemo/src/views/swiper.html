@@ -1,0 +1,11 @@
+<div class="swiper-container" :class="className">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" v-for="(item , index) in bannerList" :key="index">
+            <a :href="item.path" >
+                <img :src="item.imgSrc">
+                <p>{{item.title}}</p>
+            </a>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>

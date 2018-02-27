@@ -1,0 +1,19 @@
+{
+	"qianggou": {
+		"goodsImg":"imgs/home/pic2-fuli/qianggou/cc17abf6a1c6ee72e14ba4682dcbcc3c1489643617.jpg.png",
+		"goodsPrice": "122",
+		"goodsId": 8,
+		"time": "2017/4/17"
+	},
+	"putong": [
+		{
+			"goodsImg":"imgs/home/pic2-fuli/putong/1489140010.jpg",
+			"goodsId": 9
+		},
+		{
+			"goodsImg":"imgs/home/pic2-fuli/putong/1489627049.jpg",
+			"goodsId": 10
+		}
+		
+	]
+}

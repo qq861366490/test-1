@@ -1,0 +1,44 @@
+<header class="category-head">
+	<div class="search">
+		<a href="javascript:;" class="left-btn" onclick = "history.back(-1)"></a>
+		<div class="input">
+			<input type="text" placeholder="请输入商品名称" />
+			<a href="javascript:;" class="search-btn iconfont icon-saomiao1"></a>
+		</div>
+		<a href="javascript:;" class="right-btn" ng-click="isShow()"></a>
+	</div>
+	<ul class="head-nav" ng-show="show">
+		<li>
+			<a href="javascript:;" ng-click = "goPage('/home')">首页</a>
+		</li>
+		<li>
+			<a href="javascript:;">联系客服</a>
+		</li>
+		<div></div>
+	</ul>
+</header>
+<div class="mui-content mui-row mui-fullscreen">
+	<div class="mui-col-xs-3">
+		<div class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
+			<a href="javascript:;" ng-click="showCon($index)" ng-class="{true: 'active',false: ''}[index == $index]" ng-repeat="item in listName" ng-bind-template="{{item}}" class="mui-control-item">
+			</a>
+		</div>
+	</div>
+	<div class="mui-col-xs-9">
+			<div class="title">
+				<div class="line"></div>
+				<div class="text" ng-bind-template="{{liName}}"></div>
+				<div class="line"></div>
+			</div>
+			<div class="content">
+				<div class="item" ng-repeat="item in list" ng-click = "goPage('/category/category-list')">
+					<div class="img">
+						<img ng-src="{{item.listImg}}" alt="" />
+					</div>
+					<div class="text" ng-bind-template="{{item.className}}">
+					</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
