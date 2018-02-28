@@ -1,0 +1,249 @@
+.login-container {
+  width: 1190px;
+  height: 601px;
+  position: relative;
+  margin: 10px auto;
+  background: url(../imgs/verify/ce336d5fbfa6868e0f2d5324ec77c3bd.jpg) no-repeat 0 center;
+}
+
+.login-container .login-right {
+  width: 340px;
+  height: 540px;
+  border: 2px solid #ccc;
+  float: right;
+}
+
+.login-container .login-right h2 {
+  width: 320px;
+  height: 44px;
+  color: #1566C0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 44px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.login-container .login-right ul li {
+  width: 100%;
+  height: 51px;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.login-container .login-right ul li input {
+  color: #000;
+  font-size: 14px;
+  padding-left: 4px;
+}
+
+.login-container .login-right ul li input.verify {
+  width: 90px;
+  height: 26px;
+  line-height: 26px;
+  margin-left: 20px;
+  padding-left: 4px;
+}
+
+.login-container .login-right ul li .verify-con {
+  margin-bottom: -8px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.login-container .login-right ul li .verify-change {
+  color: blue;
+  margin-right: 27px;
+}
+
+.login-container .login-right ul li p {
+  margin-top: 4px;
+}
+
+.login-container .login-right ul li input.checkbox {
+  margin-left: 20px;
+}
+
+.login-container .login-right ul li input.checkbox2 {
+  margin-left: 20px;
+}
+
+.login-container .login-right ul li:nth-child(3) p {
+  margin-left: 20px;
+  display: none;
+}
+
+.login-container .login-right ul li:nth-child(3) p b {
+  width: 16px;
+  height: 16px;
+  margin-bottom: -4px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.login-container .login-right ul li:nth-child(3) p b.error {
+  background: url(../imgs/verify/v-icon-2.png) no-repeat center;
+}
+
+.login-container .login-right ul li:nth-child(4) {
+  margin-top: 20px;
+}
+
+.login-container .login-right ul li:nth-child(5) {
+  line-height: 51px;
+}
+
+.login-container .login-right ul li .loginBtn {
+  float: left;
+  font-size: 16px;
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #fc5910;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.login-container .login-right ul li .loginBtn:hover {
+  background-color: #e14c0a;
+}
+
+.login-container .login-right ul li .loginBtn + a {
+  font-size: 14px;
+}
+
+.login-container .login-right ul input:not([type='checkbox']) {
+  border: 1px solid #ccc;
+  width: 288px;
+  height: 26px;
+  line-height: 26px;
+  margin-left: 20px;
+}
+
+.login-container .login-right ul input:not([type='checkbox']):hover {
+  border: 1px solid #999;
+}
+
+.login-container .login-right .hezuo {
+  width: 340px;
+  height: 140px;
+  border-top: 1px dotted #ccc;
+}
+
+.login-container .login-right .hezuo h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  font-size: 14px;
+  color: #000;
+}
+
+.login-container .login-right .hezuo .hezuo-icon {
+  margin-left: 40px;
+}
+
+.login-container .login-right .hezuo .hezuo-icon a {
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin-right: 4px;
+  background: url(../imgs/verify/denglu_icon5_all_bg.png) no-repeat 0 0;
+}
+
+.login-container .login-right .hezuo .hezuo-icon a:nth-child(1) {
+  background-position: 0 -60px;
+}
+
+.login-container .login-right .hezuo .hezuo-icon a:nth-child(2) {
+  background-position: 0 -300px;
+}
+
+.login-container .login-right .hezuo .hezuo-icon a:nth-child(3) {
+  background-position: 0 -360px;
+}
+
+.login-container .login-right .hezuo .hezuo-icon a:nth-child(4) {
+  background-position: 0 -450px;
+}
+
+.login-container .login-right .hezuo .hezuo-icon a:nth-child(5) {
+  background-position: 0 -420px;
+}
+
+.login-container .login-right .hezuo .hezuo-icon a:nth-child(6) {
+  background-position: 0 -120px;
+}
+
+.login-container .login-right .hezuo .hezuo-icon a:nth-child(7) {
+  background-position: 0 -510px;
+}
+
+.login-container .login-right .zhuce {
+  width: 340px;
+  height: 44px;
+  line-height: 44px;
+  background-color: #efefef;
+}
+
+.login-container .login-right .zhuce span {
+  color: red;
+  margin-left: 20px;
+}
+
+.login-container .login-right .zhuce a {
+  width: 70px;
+  height: 25px;
+  margin-right: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  float: right;
+}
+
+.login-container .login-right .zhuce a:hover {
+  background-color: #efefef;
+  color: blue;
+}
+
+.okcon {
+  width: 200px;
+  height: 150px;
+  border: 2px solid #7fcbfe;
+  boxShadow: 0px 0px 3px #7fcbfe;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.okcon span {
+  display: inline-block;
+  margin-top: 35px;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.okcon em {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: middle;
+  background: url(../imgs/verify/v-icon-3.png) no-repeat center;
+}
+
+.okcon p {
+  color: #000;
+  font-size: 14px;
+}

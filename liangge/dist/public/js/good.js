@@ -1,0 +1,11 @@
+requirejs(['config'],function(){
+	requirejs(['jquery','goods','header','sideBar'],function($,goods,header,sideBar){
+		$('.goods-head').load('header.html',function(){
+			header.init($('.goods-head'));
+		});
+		$('.goods-footer').load('footer.html');
+		$('.goods-sideBar').load('sideBar.html',function(){
+			sideBar.init($('.goods-sideBar'));
+		});
+	});
+});

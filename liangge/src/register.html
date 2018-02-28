@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="generator" content="ecstore.b2c">
+	<title>欢迎注册 - 量格</title>
+	<meta name="keywords" content=" 商城,网购,B2C,手机,笔记本电脑,婴儿,网上购物,买买买,量格商城,量格,www.359mai.com">
+	<meta name="description" content="量格-综合网上购物商城，坚持“以客户为中心”的理念，秉承“正品行货”信念，销售电脑、数码家电、母婴百货、智能设备等产品，提供专业服务：全国联保、货到付款、30天内可退换货。为消费者提供便利、快捷的网购体验。" />
+	<link rel='shortcut icon' href='http://359mai-images.s3.mall.ekaidian.com/a1/32/80/86e901693f56f0550c51ca7883eaca3d.png' type='image/x-icon'>
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<!-- head -->
+	<div class="register-head"></div>
+	<!-- head end -->
+	
+	<!-- register -->
+	<div class="register-container">
+		<div class="register-left">
+			<h2>用户注册</h2>
+			<form method="" action="">
+				<ul>
+					<li>
+						<span>
+							<em>*</em>
+							登录账号：
+						</span>
+						<input type="text" class="account" id="username" placeholder="用户名/邮箱/手机号，最少4个字符" maxlength="20"/>
+						<b class="ok" id="usernameb"></b>
+						<p id="usernamep">登录账号</p>
+					</li>
+					<li>
+						<span>
+							<em>*</em>
+							密码：
+						</span>
+						<input type="password" class="password" id="userpsw" placeholder="6-20个字符" minlength="6" maxlength="20"/>
+						<b class="ok" id="userpswb"></b>
+						<div class="password-con">
+							<i>密码强度</i>
+							<i id="lower">弱</i>
+							<i id="middle">中</i>
+							<i id="high">强</i>
+						</div>
+						<p id="userpswp">登录密码</p>
+					</li>
+					<li>
+						<span>
+							<em>*</em>
+							确认密码：
+						</span>
+						<input type="password" class="passwordCheck" id="userpswcheck" placeholder="再次填写密码"/>
+						<b class="ok" id="userpswcheckb"></b>
+						<p id="userpswcheckp">确认密码</p>
+					</li>
+					<li>
+						<span>
+							姓名：
+						</span>
+						<input type="text" id="li4"/>
+					</li>
+					<li>
+						<span>
+							联系地址：
+						</span>
+						<input type="text" id="li5"/>
+					</li>
+					<li>
+						<span>
+							性别：
+						</span>
+						<input type="radio" name="sex"/>男
+						<input type="radio" name="sex"/>女
+					</li>
+					<li>
+						<span>
+							<em>*</em>
+							手机：
+						</span>
+						<input type="text" class="phone" id="userphone" maxlength="11"/>
+						<b class="ok" id="userphoneb"></b>
+						<p id="userphonep">手机号</p>
+					</li>
+					<li>
+						<span>
+							邮编：
+						</span>
+						<input type="text" id="li8"/>
+					</li>
+					<li>
+						<span>
+							<em>*</em>
+							验证码：
+						</span>
+						<input type="text" class="verify" id="inputverify" placeholder="填写验证码"/>
+						<img class="verify-con" src="imgs/verify/01AE.png" id="userverify">
+						<a href="javascript:;" class="verify-change" id="userchange">看不清楚？换一个</a>
+						<b class="ok" id="inputverifyb"></b>
+						<p id="inputverifyp">验证码</p>
+					</li>
+					<li>
+						<input type="checkbox" class="checkbox" id="usercheckde" checked/>
+						<div class="re-note">我已阅读并同意 <a href="#">会员注册协议</a>和 <a href="#">隐私保护政策</a></div>
+						
+						<p id="usercheckdep"><em class="text" id="usercheckdeb"></em>请选择同意</p>
+					</li>
+					<li>
+						<a href="javascript:;" class="registerBtn" id="userBtn">注册</a>
+					</li>
+				</ul>
+			</form>
+		</div>
+		<div class="register-right">
+			<div class="register-right-con">
+				已经有会员帐号请直接登录
+				<a href="login.html">转到登录页</a>
+			</div>
+		</div>
+	</div>
+	<!-- register end -->
+	
+	<!-- footer -->
+	<div class="register-footer"></div>
+	<!-- footer end-->
+	
+<script  data-main="public/js/register.js" src="public/js/require.js" async="true" defer></script>
+</body>
+</html>

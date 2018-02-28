@@ -1,0 +1,237 @@
+//foot
+@keyframes toTop {
+    0% {
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(-20px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+} 
+.foot {
+    width: 100%;
+    height: 112px;
+    margin-top: 40px;
+    .foot-con {
+        width: 1190px;
+        height: 112px;
+        margin: 0 auto;
+            ul {
+                width: 1190px;
+                margin: 0 auto;
+                padding-left: 6px;
+                li {
+                    width: 119px;
+                    margin-top: 20px;
+                    margin-left: 27PX;
+                    float: left;
+                    text-align: center;
+                    &:hover a {
+                        color: #E6113C;
+                    }
+                    &:hover em {
+                        animation: toTop 0.3s forwards;
+                    }
+                    &:nth-child(1) {
+                        em {
+                            background-position: 0px -3px; 
+                        }
+                    }
+                    &:nth-child(2) {
+                        em {
+                            background-position: -63px -3px; 
+                        }
+                    }
+                    &:nth-child(3) {
+                        em {
+                            background-position: -128px -3px; 
+                        }
+                    }
+                    &:nth-child(4) {
+                        em {
+                            background-position: -193px -3px; 
+                        }
+                    }
+                    &:nth-child(5) {
+                        em {
+                            background-position: -258px -3px; 
+                        }
+                    }
+                    &:nth-child(6) {
+                        em {
+                            background-position: -325px -3px; 
+                        }
+                    }
+                    &:nth-child(7) {
+                        em {
+                            background-position: -390px -3px; 
+                        }
+                    }
+                    &:nth-child(8) {
+                        margin-right: 0;
+                        em {
+                            background-position: -458px -3px; 
+                        }
+                    }
+                    a {
+                        font-size: 12px;
+                        width: 61px;
+                        height: 50px;
+                        float: left; 
+                        span {
+                            margin-top: 15px;
+                            font-size: 14px;
+                            color: #666;
+                            display: inline-block;
+                        }
+                        em {
+                            width: 49px;
+                            height: 49px;
+                            display: inline-block;
+                            background: url(../imgs/foot/icon_gonggaob.png) no-repeat right top;
+                        }
+                    }
+                }
+            }
+            
+    }
+    
+    .foot-bottom {
+        width: 100%;
+        height: 220px;
+        margin-top: 20px;
+        background: #0083ce url(../imgs/foot/ft_bg.gif) no-repeat right top;
+        .foot-bottom-con {
+            width: 1190px;
+            height: 220px;
+            margin: 0 auto;
+            
+            a {
+                color: #fff;
+            }
+            dl {
+                width: 100px;
+                float: left;
+                margin-top: 20px;
+                margin-left: 20px;
+                text-align: center;
+                dt {
+                    margin-bottom: 10px;
+                    span {
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #fff;
+                    }
+                }
+                dd {
+                    line-height: 30px;
+                }
+            }
+            .weixin {
+                float: left;
+                margin-left: 150px;
+                margin-top: 25px;
+                img {
+                    float: left;
+                    margin-bottom: 10px;
+                }
+                p {
+                    color: #fff;
+                }
+            }
+            .zhifubao {
+                float: left;
+                margin-left: 40px;
+                margin-top: 25px;
+                img {
+                    float: left;
+                    margin-bottom: 10px;
+                }
+                p {
+                    color: #fff;
+                }
+               
+            }
+        }
+        
+    } 
+    .copy-con {
+        width: 1190px;
+        height: 150px;
+        margin: 0 auto;
+        .copy-pr {
+            width: 1190px;
+            height: 50px;
+            margin: 0 auto;
+            ul {
+                width: 900px;
+                height: 32px;
+                margin: 0 auto;
+                li {
+                    float: left;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    span {
+                        margin-left: 10px;
+                    }
+                    a {
+                        &:hover {
+                            color: #0083ce;
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+        .copy-right {
+            width: 1190px;
+            height: 50px;
+            margin: 10px auto;
+            span {
+                float: left;
+                width: 750px;
+                height: 50px;
+                line-height: 50px;
+                margin-left: 150px;
+            }
+            a {
+                float: left;
+            }
+        }
+        .copy-message {
+            width: 1190px;
+            height: 30px;
+            margin: 0 auto;
+            span {
+                float: left;
+                width: 60px;
+                height: 30px;
+                line-height: 30px;
+                margin-left: 450px;
+            }
+            a {
+                float: left;
+               margin-top: 4px;
+            }
+        }
+        .copy-police {
+            width: 1190px;
+            height: 50px;
+            margin: 0 auto;
+            span {
+                display: inline-block;
+                width: 100px;
+                height: 20px;
+                margin-left: 450px;
+            }
+            p {
+                width: 100px;
+                height: 20px;
+                margin-left: 450px;
+            }
+        }
+    }
+}
