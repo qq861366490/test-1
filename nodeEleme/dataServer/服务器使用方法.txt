@@ -1,3 +1,4 @@
 1.开启mongodb数据库(执行mongo.bat文件);
+打开cmd命令行窗口，执行如下命令 mongod --dbpath D:\MongoDB\data
 2.在本目录shift右键打开cmd命令行,输入node getData,回车,存入数据到数据库;
-3.在本目录shift右键打开cmd命令行,输入node server,回车,开启ajax请求数据的服务器;(服务器默认地址:http://localhost:3000; 局域网内ajax请求地址就是本机地址,如:http://192.168.55.6:3000)
+3.输入node server,回车,开启ajax请求数据的web服务器;(服务器默认地址:http://localhost:3000; 局域网内ajax请求地址就是本机地址,如:http://192.168.55.6:3000)
